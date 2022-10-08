@@ -1,0 +1,1 @@
+{"name":"Local: celcius","url":"c:\\Users\\jasmi\\OneDrive\\Desktop\\Code\\celcius.cpp","tests":[{"id":1665258431924,"input":"0 100 20","output":"-17 -6 37"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"c:\\Users\\jasmi\\OneDrive\\Desktop\\Code\\celcius.cpp","group":"local","local":true}

@@ -1,0 +1,1 @@
+{"name":"Local: EvenOdd","url":"c:\\Users\\jasmi\\OneDrive\\Desktop\\Code\\EvenOdd.cpp","tests":[{"id":1665234537720,"input":"1000 10  1000","output":"100000"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"c:\\Users\\jasmi\\OneDrive\\Desktop\\Code\\EvenOdd.cpp","group":"local","local":true}

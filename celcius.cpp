@@ -9,5 +9,6 @@ int main() {
     int EC=((5.0)/9 *(E-32));
     int WC= ((5.0)/9 *(W-32));
     cout<< SC<<" " << EC<< " "<< WC<<endl;
+     
 
 }

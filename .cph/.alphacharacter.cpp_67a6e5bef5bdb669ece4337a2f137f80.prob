@@ -1,0 +1,1 @@
+{"name":"Local: alphacharacter","url":"c:\\Users\\jasmi\\OneDrive\\Desktop\\Code\\alphacharacter.cpp","tests":[{"id":1665336972073,"input":"4","output":"A\nBB\nCCC\nDDDD"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"c:\\Users\\jasmi\\OneDrive\\Desktop\\Code\\alphacharacter.cpp","group":"local","local":true}

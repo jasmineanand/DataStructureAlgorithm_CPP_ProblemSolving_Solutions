@@ -1,0 +1,1 @@
+{"name":"Local: codecharacterPatter","url":"c:\\Users\\jasmi\\OneDrive\\Desktop\\Code\\codecharacterPatter.cpp","tests":[{"id":1665336937785,"input":"4","output":"A\nBC\nCDE\nDEFG"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"c:\\Users\\jasmi\\OneDrive\\Desktop\\Code\\codecharacterPatter.cpp","group":"local","local":true}

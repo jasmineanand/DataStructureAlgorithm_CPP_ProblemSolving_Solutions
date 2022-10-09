@@ -6,22 +6,23 @@ int main () {
     cin>>n;
 
     int i=1;
-    int val=1;
+    
     while (i<=n) {
         int k=1;
         while ( k<=n-1) {
             cout <<" ";
             k=k+1;
         }
-
-            int j;
+            int val=i;
+            int j=1;
             while (j<=i) {
                 cout << val;
-                j=j+1;
-                val= val+1;
+                val++;
+                j++;
+
             }
                 cout<<endl;
-                i=i+1;
+                i++;
      }
 }
 

@@ -1,0 +1,1 @@
+{"name":"Local: triangleofnumbers","url":"c:\\Users\\jasmi\\OneDrive\\Desktop\\Code\\triangleofnumbers.cpp","tests":[{"id":1665394840846,"input":"4","output":"   1\n  232\n 34543\n4567654"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"c:\\Users\\jasmi\\OneDrive\\Desktop\\Code\\triangleofnumbers.cpp","group":"local","local":true}

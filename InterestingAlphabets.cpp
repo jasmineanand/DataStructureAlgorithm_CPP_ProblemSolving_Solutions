@@ -5,10 +5,10 @@ int main(){
     cout<<" enter n"<<endl;
     cin>>n;
     int i=1;
-    while (i=n){
+    while (i<=n){
         char startChar= 'A'+i-1;
         int j=1;
-    while (j=i){
+    while (j<=i){
         char ch= startChar+j-1;
         cout<<ch;
         j++;

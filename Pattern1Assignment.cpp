@@ -2,7 +2,7 @@
 using namespace std;
 int main () {
     int n;
-    cout << "enter the number n"<< endl;
+    //cout << "enter the number n"<< endl;
     cin>>n;
 
     int i=1;

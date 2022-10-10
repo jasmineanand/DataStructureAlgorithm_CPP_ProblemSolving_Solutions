@@ -1,0 +1,1 @@
+{"name":"Local: starpatternisoceles","url":"c:\\Users\\jasmi\\OneDrive\\Desktop\\Code\\starpatternisoceles.cpp","tests":[{"id":1665391919459,"input":"3","output":"*\n  *** \n *****"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"c:\\Users\\jasmi\\OneDrive\\Desktop\\Code\\starpatternisoceles.cpp","group":"local","local":true}

@@ -1,0 +1,1 @@
+{"name":"Local: characterPatterTest","url":"c:\\Users\\jasmi\\OneDrive\\Desktop\\Code\\characterPatterTest.cpp","tests":[{"id":1665424900074,"input":"3","output":"it is odd"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"c:\\Users\\jasmi\\OneDrive\\Desktop\\Code\\characterPatterTest.cpp","group":"local","local":true}

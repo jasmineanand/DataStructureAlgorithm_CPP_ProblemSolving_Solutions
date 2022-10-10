@@ -1,0 +1,1 @@
+{"name":"Local: ReviseOddEven","url":"c:\\Users\\jasmi\\OneDrive\\Desktop\\Code\\ReviseOddEven.cpp","tests":[{"id":1665430895342,"input":"2","output":"even"},{"id":1665430905401,"input":"5555555","output":"odd"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"c:\\Users\\jasmi\\OneDrive\\Desktop\\Code\\ReviseOddEven.cpp","group":"local","local":true}

@@ -1,0 +1,1 @@
+{"name":"Local: printprimenumbers","url":"c:\\Users\\jasmi\\OneDrive\\Desktop\\Code\\printprimenumbers.cpp","tests":[{"id":1665436452022,"input":"5","output":"235"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"c:\\Users\\jasmi\\OneDrive\\Desktop\\Code\\printprimenumbers.cpp","group":"local","local":true}

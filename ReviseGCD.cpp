@@ -19,5 +19,12 @@ int main()
             }
         }
     }
+    int i=2;
+    int gcd=1;
+    if (i<=)
+   
+        
+
+
     cout << endl;
 }

@@ -7,8 +7,13 @@ int main()
     int i = 1;
     while (i <= n)
     {
-        cout << i;
+        int j = 1;
+        while (j <= n - i + 1)
+        {
+            cout << n - i + 1;
+            j++;
+        }
+        cout << endl;
         i++;
     }
-    cout << endl;
 }

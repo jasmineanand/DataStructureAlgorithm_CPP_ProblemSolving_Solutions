@@ -1,0 +1,1 @@
+{"name":"Local: ReviseTotalSalary","url":"c:\\Users\\jasmi\\OneDrive\\Desktop\\Code\\ReviseTotalSalary.cpp","tests":[{"id":1665478274411,"input":"4567 B","output":""},{"id":1665478559638,"input":"10000 A","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"c:\\Users\\jasmi\\OneDrive\\Desktop\\Code\\ReviseTotalSalary.cpp","group":"local","local":true}

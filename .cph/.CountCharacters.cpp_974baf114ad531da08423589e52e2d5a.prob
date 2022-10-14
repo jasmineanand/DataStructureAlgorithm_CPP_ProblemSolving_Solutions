@@ -1,0 +1,1 @@
+{"name":"Local: CountCharacters","url":"c:\\Users\\jasmi\\OneDrive\\Desktop\\Code\\CountCharacters.cpp","tests":[{"id":1665575437439,"input":"abc def4 5$","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"c:\\Users\\jasmi\\OneDrive\\Desktop\\Code\\CountCharacters.cpp","group":"local","local":true}

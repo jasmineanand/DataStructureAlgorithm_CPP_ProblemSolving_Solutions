@@ -7,13 +7,11 @@ int main()
     int x;
     cin >> n >> x;
     int i = 1;
-    while (i <= n)
+    while (i < x)
     {
         int d = n * n;
-        exponent = exponent * d;
         i++;
     }
 
-    cout << d << endl;
-}
+    cout << exponent << endl;
 }

@@ -10,11 +10,12 @@ int main()
         if (n % d == 0)
         {
             cout << " it is not prime";
+            break;
         }
         d++;
-        if (d >= n)
-        {
-            cout << "it is prime";
-        }
+    }
+    if (d >= n)
+    {
+        cout << "it is prime";
     }
 }

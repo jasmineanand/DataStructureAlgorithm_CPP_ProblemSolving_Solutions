@@ -27,7 +27,7 @@ int main()
         }
     }
     int i = 1;
-         while (i <= (n / 2;)
+         while (i <= (n / 2)
          {
         int spaces = 1}
             while (spaces <= n - i)
@@ -50,5 +50,4 @@ int main()
 
             cout << endl;
             i++;
-}
 }

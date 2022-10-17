@@ -11,29 +11,28 @@ int binary_search(int a[], int n, int key)
         {
             return mid;
         }
-        else if (a[mid] < key)
-        {
-            s = mid + 1;
-        }
-        else
+        else if (a[mid] > key)
         {
             e = mid - 1;
         }
+        else
+        {
+            s = mid + 1;
+        }
     }
-    return -1;
 }
 int main()
 {
     int n;
-    int i;
     int key;
+    int i;
     cin >> n;
     int a[1000];
     for (i = 0; i < n; i++)
     {
         cin >> a[i];
     }
-    cout << " enter the number you want to search";
+    cout << "enter the number you want to search";
     cin >> key;
     cout << binary_search(a, n, key) << endl;
 }

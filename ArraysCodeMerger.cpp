@@ -37,4 +37,13 @@ int main()
         cin >> b[i];
     }
     code(a, n, q, b);
+    {
+        for (int i = 0; i < n; i++)
+        {
+            for (int j = 0; j < q; j++)
+            {
+                cout << " ";
+            }
+        }
+    }
 }

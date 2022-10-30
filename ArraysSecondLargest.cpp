@@ -31,12 +31,16 @@ int main()
             }
         }
     }
-    for (i = 0; i < n; i++)
+
+    if (i == n)
     {
-        if (a[i] > max)
+        for (i = 0; i < n; i++)
         {
-            sec_max = max;
-            max = a[i];
+            if (a[i] > max)
+            {
+                sec_max = max;
+                max = a[i];
+            }
         }
     }
     cout << sec_max;

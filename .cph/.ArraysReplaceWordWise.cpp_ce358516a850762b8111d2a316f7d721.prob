@@ -1,0 +1,1 @@
+{"name":"Local: ArraysReplaceWordWise","url":"c:\\Users\\jasmi\\OneDrive\\Desktop\\Code\\ArraysReplaceWordWise.cpp","tests":[{"id":1667210171233,"input":"abc def ghi","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"c:\\Users\\jasmi\\OneDrive\\Desktop\\Code\\ArraysReplaceWordWise.cpp","group":"local","local":true}

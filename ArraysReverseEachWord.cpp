@@ -3,34 +3,45 @@ using namespace std;
 void reverse(char a[])
 {
     int len = strlen(a);
-    int j = len - 1;
-    int i = 0; /*
-     while (i < j)
-     {
-         swap(a[i], a[j]);
-         i++;
-         j--;
-     }
-     int j = len - 1;
-     int i = 0;
-     while (i < j)
-     {
-         swap(a[i], a[j]);
-         i++;
-         j--;
-     }
-     */
+    int k, j, i;
+    /*
+        while (i < j)
+        {
+            swap(a[i], a[j]);
+            i++;
+            j--;
+        }
+        int j = len - 1;
+        int i = 0;
+        while (i < j)
+        {
+            swap(a[i], a[j]);
+            i++;
+            j--;
+        }
+        */
+    int count = 0;
+    for (i = 0; i < len; i++)
+    {
+        count = i;
+        for (j = 0; a[j] != ' '; j++)
+        {
+            for (k = i; k <= j; k++)
+            {
+                swap(a[k], a[j]);
+                count++;
+            }
+        }
+        i = count;
+    }
 
     for (i = 0; i < len; i++)
     {
-        for (j = 0; a[j] != ' '; j++)
+        while (a[j] != ' ')
         {
-            int k;
-            for (k = j; k < j; k++)
-            {
-                swap(a[k], a[j]);
-                j++;
-            }
+            swap(a[i], a[j]);
+            i++;
+            j++;
         }
     }
 }

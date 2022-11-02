@@ -11,6 +11,7 @@ int main()
     {
         count++;
     }
+    cout << count;
     if (count % 2 == 0)
     {
         for (i = 0; i <= (count / 2) - 1; i++)

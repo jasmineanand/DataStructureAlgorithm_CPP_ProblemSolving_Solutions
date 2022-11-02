@@ -34,17 +34,13 @@ void spiral(int a[][100], int m, int n)
                             cout << a[i][j] << " ";
                         }
                         re--;
-
-                        for (j = cs; j >= ce; j++)
+                        if (cs < ce)
                         {
-                            if (cs > ce)
+                            for (i = re; i >= rs; i--)
                             {
-                                for (i = re; i >= rs; i++)
-                                {
-                                    cout << a[i][j] << " ";
-                                }
-                                cs++;
+                                cout << a[i][cs] << " ";
                             }
+                            cs++;
                             break;
                         }
                     }
@@ -53,6 +49,7 @@ void spiral(int a[][100], int m, int n)
         }
     }
 }
+
 int main()
 {
     int a[100][100];

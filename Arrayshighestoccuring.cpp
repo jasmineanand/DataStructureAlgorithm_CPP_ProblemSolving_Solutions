@@ -2,6 +2,7 @@
 using namespace std;
 void occurring(char a[])
 {
+    int max = 0;
     int val = 0;
     int i, j;
     int len = strlen(a);

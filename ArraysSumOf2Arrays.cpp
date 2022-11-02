@@ -7,8 +7,8 @@ int calSum(int a[], int b[], int n, int k)
     int sum = 0, carry = 0;
     while (j >= 0)
     {
-        a[i] + b[j] + carry == sum;
-        t[k] = (sum % 10);
+        sum = a[i] + b[j] + carry;
+        t[q] = (sum % 10);
         carry = sum / 10;
         q--;
         j--;

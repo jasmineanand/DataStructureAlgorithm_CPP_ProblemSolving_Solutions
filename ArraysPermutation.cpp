@@ -30,6 +30,22 @@ void permutation(char a[], char b[])
     {
         cout << "true";
     }
+    int x, y;
+    char t[256];
+    for (i = 0; i < len_a; i++)
+    {
+        a[i] = x;
+        int g = 'x';
+        t[g] = a[i];
+        for (j = 0; j < len_b; j++)
+        {
+            a[j] = y;
+            int h = 'y';
+            t[h] = a[j];
+        }
+    }
+    {
+    }
 }
 int main()
 {

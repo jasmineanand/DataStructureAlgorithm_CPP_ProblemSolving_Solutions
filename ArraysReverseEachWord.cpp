@@ -2,46 +2,21 @@
 using namespace std;
 void reverse(char a[])
 {
-    int len = strlen(a);
-    int k, j, i;
-    /*
-        while (i < j)
-        {
-            swap(a[i], a[j]);
-            i++;
-            j--;
-        }
-        int j = len - 1;
-        int i = 0;
-        while (i < j)
-        {
-            swap(a[i], a[j]);
-            i++;
-            j--;
-        }
-        */
-    int count = 0;
-    for (i = 0; i < len; i++)
+    for (int i = 0; a[i] != '\0'; i++)
     {
-        count = i;
-        for (j = 0; a[j] != ' '; j++)
+        int j;
+        for (j = i; a[j] != ' ' && a[j] != '\0'; j++)
         {
-            for (k = i; k <= j; k++)
-            {
-                swap(a[k], a[j]);
-                count++;
-            }
         }
-        i = count;
-    }
+        int m = i;
+        i = j;
+        j--;
 
-    for (i = 0; i < len; i++)
-    {
-        while (a[j] != ' ')
+        while (m <= j)
         {
-            swap(a[i], a[j]);
-            i++;
-            j++;
+            swap(a[m], a[j]);
+            m++;
+            j--;
         }
     }
 }

@@ -13,18 +13,21 @@ void replace(char a[])
         i++;
         j--;
     }
-    for (i = 0; a[i] != ' '; i++)
+    for (i = 0; a[i] != '\0'; i++)
     {
-
-        for (j = i; a[j] != ' '; j++)
+        int j;
+        for (j = i; a[j] != ' ' && a[j] != '\0'; j++)
         {
-            for (int k = i; k <= j; k++)
-            {
-                swap(a[k], a[j]);
-            }
-            count++;
         }
-        i = count;
+        int m = i;
+        i = j;
+        j--;
+        while (m <= j)
+        {
+            swap(a[m], a[j]);
+            m++;
+            j--;
+        }
     }
 }
 int main()

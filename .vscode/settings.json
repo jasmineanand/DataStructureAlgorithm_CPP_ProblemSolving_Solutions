@@ -1,7 +1,8 @@
 {
-    "files.associations": {
-        "iostream": "cpp",
-        "ostream": "cpp",
-        "random": "cpp"
-    }
+  "files.associations": {
+    "iostream": "cpp",
+    "ostream": "cpp",
+    "random": "cpp",
+    "question": "cpp"
+  }
 }

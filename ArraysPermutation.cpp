@@ -1,55 +1,51 @@
 #include <bits/stdc++.h>
 using namespace std;
+bool checkfreqsame(int *frequency1, int *frequency2)
+{
+    for (int i = 0; i < 26; i++)
+    {
+
+        if (frequency1[i] != frequency2[i])
+        {
+            return false;
+        }
+    }
+    return true;
+}
 void permutation(char a[], char b[])
 {
-    int i, j;
-    int val = 0;
-    int len_a = strlen(a);
-    int len_b = strlen(b);
-    if (len_a != len_b)
+    int i;
+    int len_1 = strlen(a);
+
+    int len_2 = strlen(b);
+
+    if (len_1 != len_2)
     {
         cout << "false";
     }
-    for (i = 0; i < len_a; i++)
+    int frequency1[26] = {0};
+    int frequency2[26] = {0};
+    for (i = 0; i < len_1; i++)
     {
-        for (j = 0; j < len_b; j++)
-        {
-            if (a[i] == a[j])
-            {
-                val++;
-                break;
-            }
-        }
-        if (j == len_b)
-        {
-            cout << "false";
-            break;
-        }
+        frequency1[a[i] - 'a']++;
     }
-    if (val == len_a)
+
+    for (i = 0; i < len_2; i++)
+    {
+        frequency2[b[i] - 'a']++;
+    }
+
+    if (checkfreqsame(frequency1, frequency2))
     {
         cout << "true";
     }
-    int x, y;
-    char t[256];
-    for (i = 0; i < len_a; i++)
+    else
     {
-        a[i] = x;
-        int g = 'x';
-        t[g] = a[i];
-        for (j = 0; j < len_b; j++)
-        {
-            a[j] = y;
-            int h = 'y';
-            t[h] = a[j];
-        }
-    }
-    {
+        cout << "false";
     }
 }
 int main()
 {
-    int i, j;
     char a[100];
     cin >> a;
     char b[100];

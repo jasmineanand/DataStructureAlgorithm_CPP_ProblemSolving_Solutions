@@ -10,6 +10,7 @@ int index(int a[], int n, int k, int count)
     {
         cout << count << " ";
     }
+    cout << 2 ^ 5;
     return index(a, n, k, count + 1);
 }
 int main()

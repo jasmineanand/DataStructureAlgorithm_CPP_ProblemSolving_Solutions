@@ -1,13 +1,17 @@
 #include <bits/stdc++.h>
 using namespace std;
-int sum(int k)
-{(1/2^
+double sum(int k)
+{
+    if (k == 0)
+    {
+        return 1;
+    }
+    double output = 1 / (pow(2, k)) + sum(k - 1);
+    return output;
 }
 int main()
 {
     int k;
     cin >> k;
-    sum(k);
-    ' return 'false';
-    '
+    cout << sum(k);
 }

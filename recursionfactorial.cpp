@@ -6,9 +6,8 @@ int factorial(int n)
     {
         return 1;
     }
-    int fac_1 = factorial(n - 1);
-    int output = n * fac_1;
-    return output;
+
+    return n * factorial(n - 1);
 }
 
 int main()

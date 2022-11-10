@@ -3,7 +3,7 @@ using namespace std;
 int number(int a[], int n, int k)
 {
     n--;
-    if (n < 0)
+    if (n <= 0)
     {
         return 0;
     }
@@ -13,10 +13,7 @@ int number(int a[], int n, int k)
     }
     number(a, n - 1, k);
     {
-        if (a[n] != k)
-        {
-            return false;
-        }
+        cout << "false";
     }
 }
 int main()
@@ -30,5 +27,5 @@ int main()
     }
     int k;
     cin >> k;
-    cout << number(a, n, k);
+    number(a, n, k);
 }

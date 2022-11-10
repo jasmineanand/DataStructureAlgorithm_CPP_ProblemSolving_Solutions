@@ -1,31 +1,41 @@
 #include <bits/stdc++.h>
 using namespace std;
-int number(int a[], int n, int k)
+
+bool checkNumber(int a[], int n, int k)
 {
-    n--;
-    if (n <= 0)
+
+    if (n == 1)
     {
-        return 0;
+        if (a[0] == k)
+            return true;
+        else
+            return false;
     }
-    if (a[n] == k)
+    if (a[0] == k)
+    {
+        return true;
+    }
+    else
+    {
+        return checkNumber(a + 1, n - 1, k);
+    }
+}
+
+int main()
+{
+    int n;
+    cin >> n;
+    int a[n];
+    for (int i = 0; i < n; i++)
+        cin >> a[i];
+    int k;
+    cin >> k;
+    if (checkNumber(a, n, k))
     {
         cout << "true";
     }
-    number(a, n - 1, k);
+    else
     {
         cout << "false";
     }
-}
-int main()
-{
-    int a[100];
-    int n;
-    cin >> n;
-    int k;
-    cin >> k;
-    for (int i = 0; i < n; i++)
-    {
-        cin >> a[i];
-    }
-    number(a, n, k);
 }

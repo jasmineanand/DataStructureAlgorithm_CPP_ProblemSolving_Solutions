@@ -1,16 +1,15 @@
 #include <bits/stdc++.h>
 using namespace std;
-int index(int a[], int n, int k, int count)
+void index(int a[], int n, int k, int count)
 {
     if (n == count)
     {
-        return -1;
+        return;
     }
     if (a[count] == k)
     {
         cout << count << " ";
     }
-    cout << 2 ^ 5;
     return index(a, n, k, count + 1);
 }
 int main()

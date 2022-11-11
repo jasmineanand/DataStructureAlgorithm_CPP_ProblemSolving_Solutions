@@ -52,7 +52,6 @@ void merge_sort(int a[], int s, int e)
         int mid = (s + e) / 2;
         merge_sort(a, s, mid);
         merge_sort(a, mid + 1, e);
-        cout << a[i];
         merge(a, s, mid, e);
     }
 }

@@ -1,58 +1,58 @@
 #include <bits/stdc++.h>
 using namespace std;
-void merge_twosortedarrays(int *a, int s, int mid, int e)
+void merge_two(int a[], int s, int mid, int e)
 {
     int n1 = mid - s + 1;
     int n2 = e - mid;
-    int c[n1];
-    int b[n2];
+    int b[n1];
+    int c[n2];
     for (int i = 0; i < n1; i++)
     {
-        c[i] = a[s + i];
+        b[i] = a[s + i];
     }
-    for (int i = 0; i < n2; i++)
+    for (int j = 0; j < n2; j++)
     {
-        b[i] = a[mid + 1 + i];
+        c[j] = a[mid + 1 + j];
     }
     int i = 0;
     int j = 0;
     int k = s;
     while (i < n1 && j < n2)
     {
-        if (c[i] < b[j])
+        if (b[i] < c[j])
         {
-            a[k] = c[i];
+            a[k] = b[i];
             k++;
             i++;
         }
         else
         {
-            a[k] = b[j];
+            a[k] = c[j];
             k++;
             j++;
         }
     }
     while (i < n1)
     {
-        a[k] = c[i];
+        a[k] = b[i];
         k++;
         i++;
     }
     while (j < n2)
     {
-        a[k] = b[j];
+        a[k] = c[j];
         k++;
         j++;
     }
 }
-void merge_sort(int *a, int s, int e)
+void merge_sort(int a[], int s, int e)
 {
     if (s < e)
     {
-        int mid = (s + e) / 2;     // s-> 0 e-> 4 mid-> 2
-        merge_sort(a, s, mid);     // 0 2
-        merge_sort(a, mid + 1, e); //
-        merge_twosortedarrays(a, s, mid, e);
+        int mid = (s + e) / 2;
+        merge_sort(a, s, mid);
+        merge_sort(a, mid + 1, e);
+        merge_two(a, s, mid, e);
     }
 }
 int main()

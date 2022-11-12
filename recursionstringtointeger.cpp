@@ -1,21 +1,23 @@
 #include <bits/stdc++.h>
 using namespace std;
-void string_1(char a[])
+int stringToNumber(char a[], int last)
 {
-    if (a[0] == '\0')
+    if (last == 0)
     {
-        return;
+        return a[last] - '0';
     }
-    if (a[0] == 0)
-    {
-        string_1(a + 1);
-    }
-    cout << a[0];
-    string_1(a + 1);
+    int smallAns = stringToNumber(a, last - 1);
+    int b = a[last] - '0';
+    return smallAns * 10 + b;
 }
 int main()
 {
-    char a[100];
+    char a[50];
     cin >> a;
-    string_1(a);
+    int len = 0;
+    for (int i = 0; a[i] != '\0'; i++)
+    {
+        len++;
+    }
+    cout << stringToNumber(a, len - 1) << endl;
 }

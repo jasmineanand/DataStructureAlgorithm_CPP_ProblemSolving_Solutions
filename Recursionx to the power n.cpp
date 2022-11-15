@@ -6,7 +6,6 @@ int power(int x, int n)
     {
         return 1;
     }
-    cout << pow(2, 3);
     int prev = power(x, n - 1);
     return x * prev;
 }

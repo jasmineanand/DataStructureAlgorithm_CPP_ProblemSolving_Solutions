@@ -3,7 +3,6 @@ using namespace std;
 string keypadArr[] = {" ", " ", "abc", "def", "ghi", "jkl", "mno", "pqrs", "tuv", "wxyz"};
 void keypad(string input, string output)
 {
-
     if (input.length() == 0)
     {
         cout << output << endl;
@@ -20,6 +19,5 @@ int main()
 {
     int n;
     cin >> n;
-    cout << n;
-    keypad("n", " ");
+    cout << keypad("n", " ");
 }

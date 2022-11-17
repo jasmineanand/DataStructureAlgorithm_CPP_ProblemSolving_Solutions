@@ -1,6 +1,6 @@
 #include <bits/stdc++.h>
 using namespace std;
-void print
+void print()
 {
 }
 void subsets(int a[], int count, int n)

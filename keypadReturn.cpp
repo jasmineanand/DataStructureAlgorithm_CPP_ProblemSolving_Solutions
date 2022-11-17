@@ -19,5 +19,5 @@ int main()
 {
     int n;
     cin >> n;
-    cout << keypad("n", " ");
+    keypad("n", " ");
 }

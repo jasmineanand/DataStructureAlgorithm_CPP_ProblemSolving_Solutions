@@ -1,15 +1,13 @@
 #include <bits/stdc++.h>
 using namespace std;
-void sum(int a[], int k, int count)
+void sum(int a[], int k, int n)
 {
-    if (a[0] == k)
+    if (n == 0)
     {
-        cout << a[0];
+        return;
     }
-    if (a[0] + a[count] == k)
-    {
-        cout << a[0] << " " << a[count];
-    }
+    if (a[n - 1] > k)
+        return sum(a, k, n - 1);
 }
 int main()
 {
@@ -22,5 +20,5 @@ int main()
     }
     int k;
     cin >> k;
-    sum(a, k, 0);
+    cout << sum(a, k, n);
 }

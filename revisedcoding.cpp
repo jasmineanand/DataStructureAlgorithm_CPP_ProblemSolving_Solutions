@@ -24,6 +24,6 @@ int main()
     }
     if (i == n)
     {
-        cout << "false";
+        cout << "no";
     }
 }

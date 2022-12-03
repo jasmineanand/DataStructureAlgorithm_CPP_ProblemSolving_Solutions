@@ -2,6 +2,6 @@
 using namespace std;
 int main()
 {
-    string a = "abcanand";
-    cout << a.find("f");
+    string a = "abc";
+    cout << a.find("b");
 }

@@ -1,0 +1,1 @@
+{"name":"Local: swap","url":"c:\\Users\\jasmi\\OneDrive\\Desktop\\Code\\swap.cpp","tests":[{"id":1670430161739,"input":"5\n1 2 3 4 5","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"c:\\Users\\jasmi\\OneDrive\\Desktop\\Code\\swap.cpp","group":"local","local":true}

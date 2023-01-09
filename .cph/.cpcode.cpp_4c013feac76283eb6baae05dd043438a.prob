@@ -1,0 +1,1 @@
+{"name":"Local: cpcode","url":"c:\\Users\\jasmi\\OneDrive\\Desktop\\Code\\cpcode.cpp","tests":[{"id":1671793719758,"input":"2\n4\n001\n4\n101","output":"1 1 3 \n1 2 3 "},{"id":1671793744252,"input":"1\n5\n01101","output":"+-++"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"c:\\Users\\jasmi\\OneDrive\\Desktop\\Code\\cpcode.cpp","group":"local","local":true}

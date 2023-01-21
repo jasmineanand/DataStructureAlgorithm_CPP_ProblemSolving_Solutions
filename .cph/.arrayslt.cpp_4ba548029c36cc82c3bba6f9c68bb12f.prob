@@ -1,0 +1,1 @@
+{"name":"Local: arrayslt","url":"c:\\Users\\jasmi\\OneDrive\\Desktop\\Code\\arrayslt.cpp","tests":[{"id":1674313417360,"input":"1 2 3\n2 4 \n","output":""},{"id":1674313531343,"input":"","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"c:\\Users\\jasmi\\OneDrive\\Desktop\\Code\\arrayslt.cpp","group":"local","local":true}

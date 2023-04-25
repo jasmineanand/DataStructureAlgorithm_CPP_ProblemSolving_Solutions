@@ -4,5 +4,7 @@ int main()
 {
     int a[10] = {0};
     int n = sizeof(a) / sizeof(int);
-    cout << n << endl;
+    cout << n << endl
+         << "kl";
+    
 }

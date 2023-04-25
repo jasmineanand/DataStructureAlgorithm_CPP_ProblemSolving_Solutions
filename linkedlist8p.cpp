@@ -23,5 +23,14 @@ node *input()
         {
             head = n1;
         }
+        else {
+            node *temp = head;
+            while (temp->next!=NULL){
+                temp = temp->next;
+            }
+            temp->next = n1;
+        }
+        cin >> data;
     }
+    return head;
 }

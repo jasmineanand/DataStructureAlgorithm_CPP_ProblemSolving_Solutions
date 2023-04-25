@@ -1,0 +1,60 @@
+#include <bits/stdc++h>
+using namespace std;
+int main()
+{
+    vector<int> a;
+    vector<int> temp;
+
+    while (i < a.size() && j < b.size_length())
+    {
+        temp.push_back(a[i]);
+        temp.push_back(b[j]);
+        i++;
+        j++;
+    }
+    for (int a = 0; a < temp.size_length(); a++)
+    {
+        cout << temp[a];
+    }
+    while (i < a.size_length())
+    {
+        temp.push_back(a[i]);
+        i++;
+    }
+    while (j < b.size_length())
+    {
+        temp.push_back(b[j]);
+        j++;
+    }
+
+    int a[1000];
+    for (int i = 0;)
+        int a = 1;
+    int p = 0;
+    int q = 0;
+    while (p < n && q < m)
+    {
+        if (a % 2 != 0 && p < n)
+        {
+            cout << a[p];
+            p++;
+            a++;
+        }
+        else if (a % 2 == 0 && q < m)
+        {
+            cout << b[q];
+            q++;
+            a++;
+        }
+    }
+    while (p < n)
+    {
+        cout << a[p];
+        p++;
+    }
+    while (q < m)
+    {
+        cout << b[q];
+        q++;
+    }
+}
